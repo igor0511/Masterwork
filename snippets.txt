@@ -1,0 +1,4 @@
+get all your chanels
+
+https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=UC7tHdwpSjngHpHbco9WiqlA&key=AIzaSyCW8h8F586QjnVWJlI4N_rutJ0Hhvcrsfo
+

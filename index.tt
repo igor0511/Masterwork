@@ -56,7 +56,7 @@
         <div class="inner"><span>Weather</span></div>
         <div class="inner"><span>News</span></div>                    
         <div class="inner Active"><span>Videos</span></div>          
-        <div class="inner"><span>Music</span></div>
+        <div class="inner"><span><a href="music.cgi">Music</a></span></div>
         <div class="inner"><span>Settings</span></div>
         <div class="inner"><span>Control</span></div>                    
         <div class="inner"><span>Share</span></div>          
@@ -99,6 +99,12 @@
     }, "slow");
   }
   
+  function GoToPage(){
+    var CurrentElement = jQuery('.Active');
+    window.location.href = CurrentElement.find('a').attr('href');
+   
+  }
+  
 jQuery(document).ready(function() {
   
   jQuery(document).bind('keydown',function(e) {
@@ -114,11 +120,16 @@ jQuery(document).ready(function() {
 
           case 40: // down
           break;
+          
+          case 13: GoToPage(); 
+          break;
 
           default: return; // exit this handler for other keys
       }
       e.preventDefault(); // prevent the default action (scroll / move caret)
-  }); 
+  });
+  
+ 
 });
 
   function MoveElement(direction) {

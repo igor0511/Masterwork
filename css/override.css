@@ -1,0 +1,9 @@
+.row show-grid {
+				width: 50% !important;
+				overflow: auto;
+				margin-left: auto;
+				margin-right: auto;
+}
+.col-md-1{
+		width:10%;	
+}
