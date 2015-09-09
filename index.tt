@@ -53,7 +53,7 @@
       </div><!-- /.container -->
       <div class="row show-grid" >
         <div class="inner"><span>E-mail</span></div>
-        <div class="inner"><span>Weather</span></div>
+        <div class="inner"><span><a href="pictures.cgi">Images</a></span></div>
         <div class="inner"><span>News</span></div>                    
         <div class="inner Active"><span>Videos</span></div>          
         <div class="inner"><span><a href="music.cgi">Music</a></span></div>
